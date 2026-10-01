@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-labelledby="title-sunsilk-shampoo-sachet">
+<title id="title-sunsilk-shampoo-sachet">Sunsilk Smooth &amp; Manageable Shampoo — original illustrated pack</title>
+<rect width="240" height="220" fill="#e8e2d2"/>
+<path d="M0 194H240" stroke="#fff8e7" stroke-width="1" opacity=".12"/>
+<circle cx="22" cy="29" r="2" fill="#f4c044" opacity=".6"/><circle cx="218" cy="50" r="2" fill="#f4c044" opacity=".55"/>
+<ellipse cx="120" cy="197" rx="56" ry="7" fill="#fff8e7" opacity=".11"/>
+<path d="M78 24h84l7 9-4 8 4 7v122l-6 8h-88l-7-8V48l5-7-5-8z" fill="#bd244e" stroke="#263638" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M80 41h80M80 173h80" stroke="#f4c044" stroke-width="2" opacity=".82"/>
+<path d="M81 48v122M159 48v122" stroke="#fff8e7" stroke-width="1" opacity=".16"/>
+<path d="M84 43v-7m72 7v-7M84 176v7m72-7v7" stroke="#fff8e7" stroke-width="2" opacity=".46"/>
+<path d="M80 55h80v79H80z" fill="#f4c044"/>
+<text x="120" y="76" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#fff8e7" >Sunsilk</text>
+<text x="120" y="97" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" fill="#fff8e7" >SHAMPOO</text>
+<path d="M95 145q25-18 50 0v17H95z" fill="#bd244e" stroke="#fff8e7" stroke-width="1.4"/>
+<path d="M102 151h36" stroke="#fff8e7" stroke-width="2" opacity=".35"/>
+</svg>

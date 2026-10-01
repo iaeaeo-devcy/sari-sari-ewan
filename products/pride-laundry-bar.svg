@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-labelledby="title-pride-laundry-bar">
+<title id="title-pride-laundry-bar">Pride Laundry Bar Soap — original illustrated pack</title>
+<rect width="240" height="220" fill="#ece2cf"/>
+<path d="M0 194H240" stroke="#fff8e7" stroke-width="1" opacity=".12"/>
+<circle cx="22" cy="29" r="2" fill="#2c8a5c" opacity=".6"/><circle cx="218" cy="50" r="2" fill="#2c8a5c" opacity=".55"/>
+<ellipse cx="120" cy="197" rx="56" ry="7" fill="#fff8e7" opacity=".11"/>
+<path d="M67 72q0-14 16-17l75 1q16 4 16 18l-8 67q-2 17-18 20h-56q-16-3-18-20z" fill="#e6b82d" stroke="#263638" stroke-width="2.4"/>
+<path d="M72 93h96v43H72z" fill="#2c8a5c"/>
+<text x="120" y="111" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#fff8e7" >Pride</text>
+<text x="120" y="129" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="900" fill="#fff8e7" >LAUNDRY SOAP</text>
+<path d="M86 151q34 8 68 0" fill="none" stroke="#fff8e7" stroke-width="1.4" opacity=".35"/>
+</svg>

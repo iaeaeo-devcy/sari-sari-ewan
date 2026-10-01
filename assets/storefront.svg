@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="560" viewBox="0 0 880 560" role="img" aria-labelledby="title desc">
+  <title id="title">Hand-drawn sari-sari store illustration</title>
+  <desc id="desc">A neighborhood corner shop with a striped awning, hanging sachets, a wooden counter, and everyday goods on display.</desc>
+  <defs>
+    <pattern id="wood" width="16" height="52" patternUnits="userSpaceOnUse">
+      <rect width="16" height="52" fill="#a65e36"/>
+      <path d="M0 5h16M2 48h14" stroke="#713e2b" stroke-width="2" opacity=".5"/>
+      <path d="M5 0v52" stroke="#d48a4b" stroke-width="1" opacity=".32"/>
+    </pattern>
+    <pattern id="roof" width="22" height="19" patternUnits="userSpaceOnUse">
+      <rect width="22" height="19" fill="#52605c"/>
+      <path d="M2 0v19M20 0v19" stroke="#83908a" stroke-width="2" opacity=".75"/>
+      <path d="M0 18h22" stroke="#273d38" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <!-- A rough little ground shadow keeps the painted storefront planted. -->
+  <ellipse cx="443" cy="517" rx="343" ry="24" fill="#122d28" opacity=".26"/>
+  <path d="M98 146l31-45 51 3 36-25 53 19 50-18 55 18 55-20 54 19 54-20 48 22 45-14 47 25 35-8 37 44" fill="url(#roof)" stroke="#183c35" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M143 135h594v349H143z" fill="#d7b98a" stroke="#183c35" stroke-width="9"/>
+  <path d="M160 151h560v321H160z" fill="#f1dfbd"/>
+
+  <!-- Hand-painted shop name board. -->
+  <path d="M225 161l6-8h430l7 8v66l-7 8H231l-6-8z" fill="#f5d065" stroke="#183c35" stroke-width="5"/>
+  <path d="M240 174h410v41H240z" fill="#bd3428"/>
+  <text x="445" y="201" text-anchor="middle" fill="#fff3d4" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="900" letter-spacing="1">TINDAHAN SA KANTO</text>
+  <path d="M255 220h380" stroke="#183c35" stroke-width="2" opacity=".3"/>
+
+  <!-- A striped, slightly uneven awning. -->
+  <path d="M151 244h580l-21 78H169z" fill="#c9362a" stroke="#183c35" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M190 247h63l-1 75h-69zM316 247h63l1 75h-64zM442 247h63l1 75h-64zM568 247h63l1 75h-64zM694 247h32l-20 75h-13z" fill="#f3d16a"/>
+  <path d="M168 321q23 13 46 0 24 14 47 0 24 14 47 0 24 14 47 0 24 14 47 0 24 14 47 0 24 14 47 0 24 14 47 0 24 14 47 0 24 14 44 0" fill="none" stroke="#183c35" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Shop opening and simple shelf bars. -->
+  <path d="M183 336h505v139H183z" fill="#183b35" stroke="#183c35" stroke-width="5"/>
+  <path d="M201 347h469v108H201z" fill="#213f39"/>
+  <path d="M199 387h474M199 426h474" stroke="#c58b4c" stroke-width="7"/>
+  <path d="M207 345v111M667 345v111" stroke="#bd8a55" stroke-width="6"/>
+
+  <!-- Loosely hanging single-use sachets: shampoo, coffee, detergent, seasonings. -->
+  <path d="M226 347v-26m51 26v-26m52 26v-26m52 26v-26m51 26v-26m52 26v-26m52 26v-26m52 26v-26m51 26v-26" stroke="#e4c36c" stroke-width="2"/>
+  <g stroke="#173b35" stroke-width="2">
+    <path d="M214 323l5-7h18l5 7v34h-28z" fill="#d34232"/>
+    <path d="M265 323l5-7h18l5 7v34h-28z" fill="#e5bd42"/>
+    <path d="M317 323l5-7h18l5 7v34h-28z" fill="#347e56"/>
+    <path d="M369 323l5-7h18l5 7v34h-28z" fill="#29678d"/>
+    <path d="M420 323l5-7h18l5 7v34h-28z" fill="#d84034"/>
+    <path d="M472 323l5-7h18l5 7v34h-28z" fill="#d6b73b"/>
+    <path d="M524 323l5-7h18l5 7v34h-28z" fill="#347e56"/>
+    <path d="M576 323l5-7h18l5 7v34h-28z" fill="#d84034"/>
+    <path d="M627 323l5-7h18l5 7v34h-28z" fill="#347e56"/>
+  </g>
+  <g fill="#fff3d4" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="7" text-anchor="middle">
+    <text x="228" y="342">KAPE</text><text x="279" y="342">KAPE</text><text x="331" y="342">SABON</text><text x="383" y="342">SHAMPOO</text><text x="434" y="342">KAPE</text><text x="486" y="342">LABA</text><text x="538" y="342">SABON</text><text x="590" y="342">KAPE</text><text x="641" y="342">LABA</text>
+  </g>
+
+  <!-- Everyday stock on the shelf. -->
+  <g stroke="#173b35" stroke-width="2">
+    <path d="M224 366h39v18h-39z" fill="#e9d7a8"/><path d="M232 371h23v4h-23z" fill="#bc382d"/>
+    <path d="M281 364h31v21h-31z" fill="#be342b"/><path d="M286 369h21v5h-21z" fill="#f2c848"/>
+    <path d="M326 366h36v19h-36z" fill="#d5a33d"/><path d="M333 371h22v4h-22z" fill="#365a83"/>
+    <path d="M379 362h29v23h-29z" fill="#377b54"/><path d="M384 367h19v5h-19z" fill="#f1d267"/>
+    <path d="M426 365h40v20h-40z" fill="#e2bd71"/><path d="M432 370h27v4h-27z" fill="#be342b"/>
+    <path d="M484 364h32v21h-32z" fill="#c33b2d"/><path d="M490 369h20v5h-20z" fill="#f3d16a"/>
+    <path d="M533 366h40v19h-40z" fill="#e6d7b6"/><path d="M540 371h24v4h-24z" fill="#387c55"/>
+    <path d="M591 363h31v22h-31z" fill="#eab43d"/><path d="M597 368h19v5h-19z" fill="#9d322a"/>
+  </g>
+  <g stroke="#173b35" stroke-width="2">
+    <path d="M225 399h35v22h-35z" fill="#d84836"/><path d="M232 405h21v7h-21z" fill="#f4d16a"/>
+    <path d="M271 396h35v25h-35z" fill="#f0d9a8"/><path d="M276 401h25v6h-25z" fill="#28704c"/>
+    <path d="M318 397h36v24h-36z" fill="#496e95"/><path d="M324 402h24v6h-24z" fill="#f4ce57"/>
+    <path d="M367 397h37v24h-37z" fill="#e9bd49"/><path d="M373 402h25v6h-25z" fill="#ba342b"/>
+    <path d="M417 396h35v25h-35z" fill="#eee2c3"/><path d="M423 401h23v6h-23z" fill="#387d56"/>
+    <path d="M466 398h37v23h-37z" fill="#bd372e"/><path d="M472 403h25v6h-25z" fill="#f0ca55"/>
+    <path d="M517 396h37v25h-37z" fill="#d8b65d"/><path d="M523 402h25v6h-25z" fill="#3d7050"/>
+    <path d="M568 397h37v24h-37z" fill="#e9dfc7"/><path d="M574 402h25v6h-25z" fill="#bd372e"/>
+  </g>
+
+  <!-- Counter, price tags, and a few staples at the front of the shop. -->
+  <path d="M122 457h638v42H122z" fill="url(#wood)" stroke="#183c35" stroke-width="6"/>
+  <path d="M109 447h666v22H109z" fill="#d89b53" stroke="#183c35" stroke-width="5"/>
+  <path d="M295 456h90v30h-90z" fill="#f5d06b" stroke="#183c35" stroke-width="2" transform="rotate(-2 340 471)"/>
+  <text x="340" y="477" text-anchor="middle" fill="#183c35" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="900" transform="rotate(-2 340 471)">TINGI • WELCOME</text>
+  <path d="M573 456h119v30H573z" fill="#f4e5bf" stroke="#183c35" stroke-width="2" transform="rotate(2 632 471)"/>
+  <text x="632" y="477" text-anchor="middle" fill="#183c35" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900" transform="rotate(2 632 471)">PRESYONG SULIT</text>
+
+  <!-- Bote-bote and a small rice measure. -->
+  <g stroke="#183c35" stroke-width="2.5">
+    <path d="M786 366h23v10l7 8v42q0 9-9 9h-19q-9 0-9-9v-42l7-8z" fill="#c8352e"/>
+    <path d="M821 359h24v11l7 8v48q0 9-9 9h-20q-9 0-9-9v-48l7-8z" fill="#378958"/>
+    <path d="M781 393h31v18h-31z" fill="#f0cf5a"/><path d="M817 389h32v18h-32z" fill="#eee6d0"/>
+    <path d="M763 438h99v61h-99z" fill="#be7a42"/><path d="M773 449h79v39h-79z" fill="#e2ad6a"/>
+    <path d="M778 453h69v8h-69z" fill="#d2b57c"/><path d="M786 468h52v17h-52z" fill="#f1e2c2"/>
+  </g>
+  <path d="M782 476q27-17 54 0" fill="none" stroke="#fff7df" stroke-width="2" opacity=".7"/>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-labelledby="title-nova-country-cheddar">
+<title id="title-nova-country-cheddar">Nova Country Cheddar — original illustrated pack</title>
+<rect width="240" height="220" fill="#eee0bf"/>
+<path d="M0 194H240" stroke="#fff8e7" stroke-width="1" opacity=".12"/>
+<circle cx="22" cy="29" r="2" fill="#e9b636" opacity=".6"/><circle cx="218" cy="50" r="2" fill="#e9b636" opacity=".55"/>
+<ellipse cx="120" cy="197" rx="56" ry="7" fill="#fff8e7" opacity=".11"/>
+<path d="M77 31l7 8-5 8 5 8-7 8v84l7 8-5 8 5 8h72l5-8-5-8 7-8V63l-7-8 5-8-5-8 5-8z" fill="#49713c" stroke="#263638" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M84 57h72v72H84z" fill="#e9b636" opacity=".98"/>
+<text x="120" y="77" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="900" fill="#fff8e7" >Nova</text>
+<text x="120" y="96" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="900" fill="#fff8e7" >COUNTRY</text><text x="120" y="107" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="900" fill="#fff8e7" >CHEDDAR</text>
+<circle cx="120" cy="143" r="18" fill="#f8d57a" stroke="#fff8e7" stroke-width="2"/>
+<path d="M107 146q13-15 26 0M111 151q9-9 18 0" fill="none" stroke="#49713c" stroke-width="3" stroke-linecap="round"/>
+<path d="M89 48h62M89 163h62" stroke="#fff8e7" stroke-width="1.5" opacity=".34"/>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "name": "sa-kanto-sari-sari",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A locally illustrated, Vercel-ready sari-sari store storefront.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "generate:art": "node scripts/generate-product-art.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

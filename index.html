@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="fil">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#c9362a">
+  <meta name="description"
+    content="Pang-araw-araw na tinda, tingi kung tingi. Browse a neighborhood sari-sari store catalog and make a simple order list.">
+  <title>Sa Kanto — Tindahan ng pang-araw-araw</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/BarlowCondensed-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/NunitoSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Laktaw sa mga tinda</a>
+
+  <div class="top-ribbon" aria-label="Store note">
+    <div class="site-width ribbon-inner">
+      <span class="ribbon-copy">TINGI? OO NAMAN.</span>
+      <span class="ribbon-right">Pang-araw-araw, pang-kanto <span class="ribbon-divider" aria-hidden="true">/</span>
+        Presyong tingi</span>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="site-width masthead-inner">
+      <a class="brand" href="#top" aria-label="Sa Kanto sari-sari store home">
+        <span class="brand-sign" aria-hidden="true">
+          <svg viewBox="0 0 70 56" focusable="false">
+            <path d="M7 20 12 8h46l5 12v5H7z" fill="#f3cd5f" stroke="#173c35" stroke-width="3"
+              stroke-linejoin="round" />
+            <path d="M10 20h50v10H10z" fill="#bd3428" stroke="#173c35" stroke-width="2" />
+            <path d="M15 21v8m12-8v8m13-8v8m13-8v8" stroke="#fff0c9" stroke-width="4" />
+            <path d="M11 31h48v20H11z" fill="#f4e7c8" stroke="#173c35" stroke-width="3" />
+            <path d="M18 36h34M18 42h25" stroke="#173c35" stroke-width="2" />
+          </svg>
+        </span>
+        <span class="brand-wordmark"><span class="brand-small">Tindahan</span><span class="brand-large">SA
+            KANTO</span></span>
+      </a>
+
+      <p class="header-note">Dito, puwedeng tingi.</p>
+
+      <button class="header-cart" id="open-cart" type="button" aria-haspopup="dialog" aria-controls="order-dialog"
+        aria-label="Buksan ang order listahan, 0 items">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H7" />
+          <circle cx="10" cy="20" r="1.4" />
+          <circle cx="18" cy="20" r="1.4" />
+        </svg>
+        <span class="header-cart-copy">Order list</span>
+        <span class="cart-count" id="header-cart-count" aria-hidden="true">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="site-width">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-awning" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="hero-copy">
+          <h1 id="hero-title">Suki, ano'ng<br><em>bibilhin mo?</em></h1>
+          <p class="hero-description">Pang-ulam, meryenda, kape at pang-bahay—pili lang sa estante. Kahit paisa-isa,
+            puwede.</p>
+          <a class="painted-button" href="#products">Silipin ang mga tinda <svg viewBox="0 0 18 18" aria-hidden="true"
+              focusable="false">
+              <path d="M9 2v13m-5-5 5 5 5-5" />
+            </svg></a>
+          <p class="hero-footnote"><span class="hero-footnote-dot" aria-hidden="true"></span> Gumawa ng listahan, saka
+            i-share sa tindahan.</p>
+        </div>
+        <div class="hero-art-wrap">
+          <div class="hero-art-caption"><span>DITO SA KANTO</span><span class="caption-dash" aria-hidden="true"></span>
+          </div>
+          <img class="storefront-art" src="/assets/storefront.svg"
+            alt="Guhit ng sari-sari store na may makulay na awning, nakasabit na tingi sachet, at panindang naka-display."
+            width="880" height="560">
+          <span class="hero-stamp" aria-hidden="true"><span>SU</span><span>KI!</span></span>
+        </div>
+        <div class="hero-bottom-rule" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+      </section>
+
+      <section class="catalog" id="products" aria-labelledby="catalog-title">
+        <div class="catalog-heading">
+          <div>
+            <h2 id="catalog-title">Mga pang-araw-araw na tinda</h2>
+            <p class="catalog-intro">Hanap mo lang, suki. Puwedeng paisa-isa ang idagdag sa listahan.</p>
+          </div>
+          <p class="shelf-count" id="product-count" aria-live="polite"><strong>—</strong><span>tinda</span></p>
+        </div>
+
+        <div class="catalog-controls">
+          <form class="search-form" id="search-form" role="search">
+            <label class="search-label" for="product-search">Hanapin ang tinda</label>
+            <div class="search-field">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="10.8" cy="10.8" r="6.4" />
+                <path d="m16 16 4.2 4.2" />
+              </svg>
+              <input id="product-search" name="q" type="search" placeholder="Hal. kape, shampoo, itlog…"
+                autocomplete="off" aria-describedby="search-hint">
+              <button id="clear-search" class="clear-search" type="button" aria-label="Burahin ang hinanap" hidden><svg
+                  viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+                  <path d="m5 5 10 10M15 5 5 15" />
+                </svg></button>
+            </div>
+            <span class="search-hint" id="search-hint">Puwede ang pangalan o brand.</span>
+          </form>
+          <div class="category-area">
+            <p class="search-label" id="category-label">Pumili ng estante</p>
+            <div class="category-filters" id="category-filters" role="group" aria-labelledby="category-label"
+              aria-label="Filter by product category">
+              <span class="filters-loading">Inaayos ang mga kategorya…</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="loading-state" id="loading-state" role="status">
+          <span class="loading-mark" aria-hidden="true"></span>
+          <span>Inaayos ang estante…</span>
+        </div>
+        <div class="error-state" id="error-state" role="alert" hidden>
+          <strong>Sandali, suki.</strong>
+          <span>Hindi ma-load ang listahan ng tinda. Pakisubukan ulit.</span>
+          <button class="retry-button" id="retry-load" type="button">Subukan ulit</button>
+        </div>
+        <div class="empty-state" id="empty-state" role="status" hidden>
+          <span class="empty-state-mark" aria-hidden="true">?</span>
+          <h3>Walang tumugma sa hanap mo.</h3>
+          <p>Baka nasa kabilang estante? Subukan ang ibang salita o kategorya.</p>
+          <button class="text-button" id="reset-filters" type="button">Ipakita lahat ng tinda</button>
+        </div>
+
+        <ul class="product-grid" id="product-grid" aria-label="Mga produkto sa tindahan" aria-live="polite"></ul>
+        <p class="price-note" id="price-note">Presyong gabay lang; maaaring mag-iba depende sa lugar at supplier.</p>
+      </section>
+    </div>
+
+    <section class="closing-note" aria-label="Thank you">
+      <div class="site-width closing-inner">
+        <span class="closing-rule" aria-hidden="true"></span>
+        <p><strong>Salamat, suki!</strong> Babalik ka, ha?</p>
+        <span class="closing-rule" aria-hidden="true"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-width footer-inner">
+      <a href="#top" class="footer-brand">SA KANTO<span> · sari-sari, araw-araw</span></a>
+    </div>
+  </footer>
+
+  <button class="mobile-cart-bar" id="mobile-open-cart" type="button" aria-haspopup="dialog"
+    aria-controls="order-dialog">
+    <span class="mobile-cart-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+        <path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H7" />
+        <circle cx="10" cy="20" r="1.4" />
+        <circle cx="18" cy="20" r="1.4" />
+      </svg></span>
+    <span class="mobile-cart-label"><strong>Order list</strong><span id="mobile-cart-summary">Wala pang
+        idagdag</span></span>
+    <span class="mobile-cart-total" id="mobile-cart-total">₱0</span>
+  </button>
+
+  <dialog class="order-dialog" id="order-dialog" aria-labelledby="order-title">
+    <div class="drawer-shell">
+      <div class="drawer-heading">
+        <div>
+          <h2 id="order-title">Listahan ni Suki</h2>
+        </div>
+        <button class="drawer-close" id="close-cart" type="button" aria-label="Isara ang order list"><svg
+            viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path d="m4 4 12 12M16 4 4 16" />
+          </svg></button>
+      </div>
+      <p class="drawer-note">Pili lang ng dami. Hindi pa ito checkout o bayad—listahan muna para madaling i-share.</p>
+      <p class="dialog-toast" id="dialog-toast" role="status" aria-live="polite" hidden></p>
+      <div class="drawer-scroll" id="drawer-scroll">
+        <div class="cart-empty" id="cart-empty">
+          <span class="cart-empty-illustration" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false">
+              <path d="M8 17h32l-3 24H11L8 17Z" />
+              <path d="M16 17c0-7 3-11 8-11s8 4 8 11" />
+              <path d="M17 26h14M17 32h14" />
+            </svg></span>
+          <strong>Wala pang laman ang listahan.</strong>
+          <p>Magdagdag muna ng paborito mong tinda.</p>
+          <button class="text-button" id="shop-from-cart" type="button">Balik sa estante</button>
+        </div>
+        <ul class="cart-items" id="cart-items" aria-label="Mga napiling tinda"></ul>
+      </div>
+      <div class="drawer-summary" id="drawer-summary" hidden>
+        <div class="receipt-line"><span>Subtotal <small>(tantya)</small></span><strong id="cart-subtotal">₱0</strong>
+        </div>
+        <p class="receipt-footnote">Final price and availability are confirmed by the store.</p>
+        <button class="copy-order-button" id="copy-order" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect x="8" y="8" width="12" height="13" rx="1.5" />
+            <path d="M16 8V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2" />
+          </svg>
+          Kopyahin ang listahan
+        </button>
+        <button class="share-order-button" id="share-order" type="button" hidden>I-share ang listahan</button>
+        <button class="clear-cart-button" id="clear-cart" type="button">Burahin lahat</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript>
+    <p class="noscript">Kailangan naka-on ang JavaScript para maipakita ang mga tinda at order list.</p>
+  </noscript>
+</body>
+
+</html>

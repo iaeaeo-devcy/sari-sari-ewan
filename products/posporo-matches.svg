@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-labelledby="title-posporo-matches">
+<title id="title-posporo-matches">Posporo Safety Matches — original illustrated pack</title>
+<rect width="240" height="220" fill="#ece2cf"/>
+<path d="M0 194H240" stroke="#fff8e7" stroke-width="1" opacity=".12"/>
+<circle cx="22" cy="29" r="2" fill="#f0c241" opacity=".6"/><circle cx="218" cy="50" r="2" fill="#f0c241" opacity=".55"/>
+<ellipse cx="120" cy="197" rx="56" ry="7" fill="#fff8e7" opacity=".11"/>
+<path d="M63 76l92-24 29 90-93 26z" fill="#d8372f" stroke="#263638" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M79 81l65-17 20 64-66 17z" fill="#f0c241" stroke="#263638" stroke-width="1.5"/>
+<text x="118" y="99" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="900" fill="#fff8e7" transform="rotate(-14 118 99)">Posporo</text>
+<text x="120" y="117" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="900" fill="#fff8e7" transform="rotate(-14 120 117)">SAFETY MATCHES</text>
+<path d="M88 149l18-5" stroke="#d4ac78" stroke-width="3"/><circle cx="107" cy="144" r="3" fill="#c8372e"/>
+<path d="M101 149l18-5" stroke="#d4ac78" stroke-width="3"/><circle cx="120" cy="144" r="3" fill="#c8372e"/>
+<path d="M114 149l18-5" stroke="#d4ac78" stroke-width="3"/><circle cx="133" cy="144" r="3" fill="#c8372e"/>
+<path d="M127 149l18-5" stroke="#d4ac78" stroke-width="3"/><circle cx="146" cy="144" r="3" fill="#c8372e"/>
+<path d="M140 149l18-5" stroke="#d4ac78" stroke-width="3"/><circle cx="159" cy="144" r="3" fill="#c8372e"/>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/products.js": {
+      "includeFiles": "data/products.json",
+      "maxDuration": 10
+    }
+  }
+}

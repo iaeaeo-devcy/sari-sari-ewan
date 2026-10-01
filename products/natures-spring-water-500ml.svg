@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" role="img" aria-labelledby="title-natures-spring-water-500ml">
+<title id="title-natures-spring-water-500ml">Nature&apos;s Spring Purified Drinking Water — original illustrated pack</title>
+<rect width="240" height="220" fill="#e8e0ce"/>
+<path d="M0 194H240" stroke="#fff8e7" stroke-width="1" opacity=".12"/>
+<circle cx="22" cy="29" r="2" fill="#a9d9dc" opacity=".6"/><circle cx="218" cy="50" r="2" fill="#a9d9dc" opacity=".55"/>
+<ellipse cx="120" cy="197" rx="56" ry="7" fill="#fff8e7" opacity=".11"/>
+<path d="M105 30h30v18l9 11v13q20 12 20 33v48q0 16-15 18H91q-15-2-15-18v-48q0-21 20-33V59l9-11z" fill="#3977b7" stroke="#263638" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="104" y="20" width="32" height="14" rx="3" fill="#a9d9dc" stroke="#263638" stroke-width="2"/>
+<path d="M87 86h66v48H87z" fill="#a9d9dc" opacity=".96"/>
+<text x="120" y="104" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="900" fill="#fff8e7" >Nature&apos;s Spring</text>
+<text x="120" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="900" fill="#fff8e7" >PURIFIED</text><text x="120" y="131" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="900" fill="#fff8e7" >WATER</text>
+<path d="M88 145h64M94 156h52" stroke="#fff8e7" stroke-width="1.3" opacity=".3"/>
+<path d="M92 64v13m7-18v9" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+</svg>
